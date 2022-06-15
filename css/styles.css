@@ -26,6 +26,14 @@ input[type="tel"] {
   font-size: 1.2rem;
 }
 
+form input:focus {
+  border: none;
+  outline-style: solid;
+  outline-color: rgba(0, 0, 255, 0.6);
+  outline-width: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
 a:hover {
   color: var(--light-grey);
 }
